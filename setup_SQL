@@ -1,0 +1,229 @@
+CREATE TABLE jan_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+CREATE TABLE feb_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+CREATE TABLE march_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE apr_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+CREATE TABLE may_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE jun_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE july_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+
+CREATE TABLE aug_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+CREATE TABLE sep_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE oct_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE nov_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+CREATE TABLE dec_2020(
+  tripduration INT,
+  starttime VARCHAR,
+  stoptime VARCHAR,
+  "start station id" TEXT,
+  "start station name" TEXT,
+  "start station latitude" double precision,
+  "start station longitude" double precision,
+  "end station id" TEXT,
+  "end station name" TEXT,
+  "end station latitude" double precision,
+  "end station longitude" double precision,
+  "bikeid" TEXT,
+  "usertype" TEXT,
+  "birth year" VARCHAR,
+  gender INT 
+);
+
+
+
+
+
+
+copy public.jan_2020 FROM 'C:\Temp\CitiBike\202001-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.feb_2020 FROM 'C:\Temp\CitiBike\202002-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.march_2020 FROM 'C:\Temp\CitiBike\202003-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.apr_2020 FROM 'C:\Temp\CitiBike\202004-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.may_2020 FROM 'C:\Temp\CitiBike\202005-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.jun_2020 FROM 'C:\Temp\CitiBike\202006-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.july_2020 FROM 'C:\Temp\CitiBike\202007-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.aug_2020 FROM 'C:\Temp\CitiBike\202008-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.sep_2020 FROM 'C:\Temp\CitiBike\202009-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.oct_2020 FROM 'C:\Temp\CitiBike\202010-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.nov_2020 FROM 'C:\Temp\CitiBike\202011-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+copy public.dec_2020 FROM 'C:\Temp\CitiBike\202012-citibike-tripdata.csv' DELIMITER ',' CSV HEADER;
+
